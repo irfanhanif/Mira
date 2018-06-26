@@ -1,9 +1,11 @@
+# Program ini untuk memindahkan Word Embeddings GloVe ke Database
+
 import mysql.connector
 import json
 
 from tqdm import tqdm
 
-db = mysql.connector.connect(user="root", password="misfanatik", database="glove")
+db = mysql.connector.connect(user="root", password="", database="glove")
 cursor = db.cursor()
 
 #pbar = tqdm(total=325209)
