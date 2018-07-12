@@ -48,6 +48,6 @@ To use LINE API Messenger, first you need to install **Line Bot SDK** `sudo pip 
 GloVe word embeddings Bahasa Indonesia semantic test with *common-capital-countries* : **86.4%**
 Convolutional Neural Networks trained on Schematics FAQs dataset: **95.6%**
 ### Scheenshots
-![Mira-1](https://raw.githubusercontent.com/irfanhanif/Mira/master/mira1.PNG =300x)
-![Mira-2](https://raw.githubusercontent.com/irfanhanif/Mira/master/mira2.PNG =300x)
+![Mira-1](https://raw.githubusercontent.com/irfanhanif/Mira/master/mira1.PNG)
+![Mira-2](https://raw.githubusercontent.com/irfanhanif/Mira/master/mira2.PNG)
 
