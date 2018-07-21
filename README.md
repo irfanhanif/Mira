@@ -55,7 +55,7 @@ Convolutional Neural Networks trained on Schematics FAQs dataset: **95.6%**
 2. Untuk mendapatkan word embeddings GloVe, dapat menjalankan source code yang dibuka secara publik oleh Pennington et al. (2014) pada alamat GloVe yang telah dilampirkan di atas.
 3. File source code CNN per skenario dapat dilihat seluruhnya pada folder `ConvNN/`
 4. Skenario yang ada pada tugas akhir ini yang ada terdiri dari tiga skenario. (1) CNN tanpa transfer learning pada file `ConvNN/cnn_data_target_wtl.py`, (2) CNN dengan transfer learning skenario 1 pada file `ConvNN/cnn_data_target_tl_1.py`, dan (3) CNN dengan transfer learning skenario 2 pada file `ConvNN/cnn_data_target_tl_2.py`.
-5. Folder `Mira/` berisi setiap file yang harus diletakkan pada server chatbot.
+5. Folder `Mira/` berisi setiap file yang harus diletakkan pada server chatbot. Word embddings harus diletakkan pada basis data untuk chatbot ini.
 6. `wordembd2db.py` adalah file yang ditulis untuk memindahkan word embedding yang diload pada RAM ke basis data. 
 
 ### Testing 
