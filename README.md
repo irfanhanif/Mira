@@ -50,3 +50,15 @@ Convolutional Neural Networks trained on Schematics FAQs dataset: **95.6%**
 ### Scheenshots
 <img src="https://raw.githubusercontent.com/irfanhanif/Mira/master/mira1.PNG" width="300"/> <img src="https://raw.githubusercontent.com/irfanhanif/Mira/master/mira2.PNG" width="300"/>
 
+### How To Run
+1. `IPython Notebook/Tugas-Akhir-Final.ipynb` adalah file ipython notebook yang berisi bagaimana data FAQs Schematics dan LAPOR! melalui proses preprocessing hingga menghasilkan file numpy yang siap menjadi masukan dari Convolutional Neural Networks.
+2. Untuk mendapatkan word embeddings GloVe, dapat menjalankan source code yang dibuka secara publik oleh Pennington et al. (2014) pada alamat GloVe yang telah dilampirkan di atas.
+3. File source code CNN per skenario dapat dilihat seluruhnya pada folder `ConvNN/`
+4. Skenario yang ada pada tugas akhir ini yang ada terdiri dari tiga skenario. (1) CNN tanpa transfer learning pada file `ConvNN/cnn_data_target_wtl.py`, (2) CNN dengan transfer learning skenario 1 pada file `ConvNN/cnn_data_target_tl_1.py`, dan (3) CNN dengan transfer learning skenario 2 pada file `ConvNN/cnn_data_target_tl_2.py`.
+5. Folder `Mira/` berisi setiap file yang harus diletakkan pada server chatbot.
+6. `wordembd2db.py` adalah file yang ditulis untuk memindahkan word embedding yang diload pada RAM ke basis data. 
+
+### Testing 
+1. `IPython Notebook/Glove-Test.ipynb` adalah file yang berisi testing untuk word embeddings GloVe. `IPython Notebook/Confusion Matrix.ipynb` adalah file yang berisi bagaimana menampilkan confusion matrix pada model akhir CNN.
+2. `SpeedAnalysis/` adalah folder yang berisi testing untuk kecepatan learning pada CNN. 
+3. `GloVe-1.2/eval` adalah folder yang berisi evaluasi semantik pada word embeddings.
